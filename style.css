@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'FivoSans-Heavy';
+    src: url('font/FivoSans-Heavy/FivoSans-Heavy.eot');
+    src: url('font/FivoSans-Heavy/FivoSans-Heavy.eot') format('embedded-opentype'),
+        url('font/FivoSans-Heavy/FivoSans-Heavy.woff2') format('woff2'),
+        url('font/FivoSans-Heavy/FivoSans-Heavy.woff') format('woff'),
+        url('font/FivoSans-Heavy/FivoSans-Heavy.ttf') format('truetype'),
+        url('font/FivoSans-Heavy/FivoSans-Heavy.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FivoSans-Medium';
+    src: url('font/FivoSans-Medium/FivoSans-Medium.eot');
+    src: url('font/FivoSans-Medium/FivoSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/FivoSans-Medium/FivoSans-Medium.woff2') format('woff2'),
+        url('font/FivoSans-Medium/FivoSans-Medium.woff') format('woff'),
+        url('font/FivoSans-Regular/FivoSans-Regular.ttf') format('truetype'),
+        url('font/FivoSans-Regular/FivoSans-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FivoSans-Regular';
+    src: url('font/FivoSans-Regular/FivoSans-Regular.eot');
+    src: url('font/FivoSans-Regular/FivoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/FivoSans-Regular/FivoSans-Regular.woff2') format('woff2'),
+        url('font/FivoSans-Regular/FivoSans-Regular.woff') format('woff'),
+        url('font/FivoSans-Regular/FivoSans-Regular.ttf') format('truetype'),
+        url('font/FivoSans-Regular/FivoSans-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FivoSans-Oblique';
+    src: url('font/FivoSans-Oblique/FivoSans-Oblique.eot');
+    src: url('font/FivoSans-Oblique/FivoSans-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('font/FivoSans-Oblique/FivoSans-Oblique.woff2') format('woff2'),
+        url('font/FivoSans-Oblique/FivoSans-Oblique.woff') format('woff'),
+        url('font/FivoSans-Oblique/FivoSans-Oblique.ttf') format('truetype'),
+        url('font/FivoSans-Oblique/FivoSans-Oblique.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FivoSans-Bold';
+    src: url('font/FivoSans-Bold/FivoSans-Bold.eot');
+    src: url('font/FivoSans-Bold/FivoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/FivoSans-Bold/FivoSans-Bold.woff2') format('woff2'),
+        url('font/FivoSans-Bold/FivoSans-Bold.woff') format('woff'),
+        url('font/FivoSans-Bold/FivoSans-Bold.ttf') format('truetype'),
+        url('font/FivoSans-Bold/FivoSans-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FivoSans-Light';
+    src: url('font/FivoSans-Light/FivoSans-Light.eot');
+    src: url('font/FivoSans-Light/FivoSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/FivoSans-Light/FivoSans-Light.woff2') format('woff2'),
+        url('font/FivoSans-Light/FivoSans-Light.woff') format('woff'),
+        url('font/FivoSans-Light/FivoSans-Light.ttf') format('truetype'),
+        url('font/FivoSans-Light/FivoSans-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Fivo Sans';
+	font-size: 18px;
+	line-height: 40px;
+	color: #000;
+	background-color: rgba(98, 98, 98, 0.5);
+}
+
+.wrapper {
+	width: 1920px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.conteiner {
+	display: flex;
+	width: 1920px;
+	min-height: 1348px;
+/*	background-image: url(img/VectorSmart.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: 1;
+*/}
+
+.header-logo p {
+	margin: 75px 552px 0 255px;
+	padding: 0;
+	font-size: 32px;
+	line-height: 49px;
+	font-family: 'FivoSans-Heavy';
+	color: #ff6a6d;
+}
+
+.nav-menu {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	margin-top: 84px;
+}
+
+.nav-menu li {
+	margin: 0;
+	padding: 0;
+}
+
+.menu-click {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	text-decoration: none;
+	line-height: 36px;
+	font-family: 'FivoSans-Bold';
+	color: #1c2056;
+	text-transform: capitalize;
+	margin-right: 69px;
+}
+
+.nav-menu li:last-child a{
+	margin-right: 128px;
+}
+
+.home {
+	color: #ff6a6d;
+}
+
+.btn {
+	background-color: #ff6a6d;
+	width: 140px;
+	height: 42px;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+.btn-login {
+	margin-top: 83px;
+}
+
+.btn-login a {
+	font-family: 'FivoSans-Regular';
+	line-height: 36px;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 13px 46px;
+}
