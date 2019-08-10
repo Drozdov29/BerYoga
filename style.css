@@ -94,6 +94,7 @@ body {
 .container {
     display: flex;
     margin-top: 80px;
+    margin-bottom: 160px;
 }
 
 .container-header-logo p {
@@ -172,4 +173,55 @@ body {
 .button-login:active {
     transition: all 1s ease;
     box-shadow: inset 0 0 15px 2px #ff585b; 
+}
+
+.container-text {
+    margin-left: 120px;
+    margin-right: 710px;
+}
+
+.container-text h2 {
+	font-family: 'FivoSans-Bold';
+	font-size: 50px;
+	line-height: 61px;
+    color: #000;
+    margin-bottom: 50px;
+}
+.container-text p {
+    font-family: 'FivoSans-Light';
+    line-height: 40px;
+    color: #88a3a2;
+    padding: 0;
+    margin: 0;
+    padding-right: 95px;
+}
+
+.content-text.item {
+    margin-bottom: 65px;
+}
+
+.button-big {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    min-width: 240px;
+    min-height: 80px;
+    border: 2px solid #ff6a6d;
+    margin-right: 30px;
+    border-radius: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.button-service {
+    background-color: #ff6a6d;
+    cursor: pointer;
+    box-shadow: -16px 16px 23.52px 0.48px rgba(226, 88, 91, 0.45);
+}
+
+.button-signup {
+    background: transparent;
+    cursor: pointer;
+    color: #ff6a6d;
 }
