@@ -74,7 +74,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'FivoSans-Regular';
-	font-size: 17px;
+	font-size: 18px;
 	line-height: 20px;
 	color: #000;
     background-color: rgba(233, 244, 250, 0.678);
@@ -99,6 +99,7 @@ body {
 .container-header-logo p {
 	margin: 0;
     padding: 0;
+    margin-right: 555px;
 	font-size: 32px;
 	line-height: 49px;
 	font-family: 'FivoSans-Heavy';
@@ -108,49 +109,46 @@ body {
 .nav-menu {
     display: flex;
     flex-wrap: wrap;
-	list-style: none;
+    list-style: none;
+    text-align: center;
 	margin: 0;
-	padding: 0;
+    padding: 0;
 }
-
-.nav-menu a {
-	text-decoration: none;
 
 .nav-menu__click {
 	margin: 0;
 	padding: 0;
-	color: #000;
+	text-decoration: none;
 	line-height: 36px;
-	font-family: 'FivoSans-Bold';
+	font-family: 'FivoSans-Regular';
 	color: #1c2056;
-	text-transform: capitalize;
+    text-transform: capitalize;
 	margin-right: 69px;
 }
 
-/* .nav-menu li:last-child a{
-	margin-right: 128px;
-} */
-
-/* .home {
+.home {
 	color: #ff6a6d;
-} */
-/* 
-.btn {
+}
+
+.nav-menu li:last-child a{
+	margin-right: 110px;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
 	background-color: #ff6a6d;
-	width: 140px;
-	height: 42px;
-	display: inline-block;
+    padding: 10px 45px;
 	border-radius: 20px;
-} */
+}
 
-/* .btn-login {
-	margin-top: 83px;
-} */
+/* .button-login {
+} 
 
-/* .btn-login a {
+.button-login a {
 	font-family: 'FivoSans-Regular';
 	line-height: 36px;
 	color: #ffffff;
 	text-decoration: none;
 	padding: 13px 46px;
-} */
+}  */
