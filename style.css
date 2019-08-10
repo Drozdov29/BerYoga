@@ -94,7 +94,7 @@ body {
 .container {
     display: flex;
     margin-top: 80px;
-    margin-bottom: 160px;
+    margin-bottom: 150px;
 }
 
 .container-header-logo p {
@@ -185,7 +185,7 @@ body {
 	font-size: 50px;
 	line-height: 61px;
     color: #000;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .container-text p {
     font-family: 'FivoSans-Light';
@@ -197,7 +197,7 @@ body {
 }
 
 .content-text.item {
-    margin-bottom: 65px;
+    margin-bottom: 45px;
 }
 
 .button-big {
@@ -212,6 +212,7 @@ body {
     font-size: 20px;
     line-height: 40px;
     color: #ffffff;
+    margin-bottom: 455px;
 }
 
 .button-service {
@@ -225,3 +226,6 @@ body {
     cursor: pointer;
     color: #ff6a6d;
 }
+
+-----------------------------------------------------------------------
+
