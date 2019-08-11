@@ -229,3 +229,80 @@ body {
 
 -----------------------------------------------------------------------
 
+.container-one {
+    min-height: 860px;
+    margin-bottom: 250px;
+}
+
+.container-one-item {
+	font-family: 'FivoSans-Bold';
+	font-size: 50px;
+	line-height: 61px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.container-one-text {
+	font-family: 'FivoSans-Light';
+	line-height: 40px;
+    color: #88a3a2;
+    text-align: center;
+    padding: 0 350px;
+    margin-bottom: 300px;
+}
+
+.container-one-features {
+    display: flex;
+    position: relative;
+}
+
+.featured-item {
+	font-family: 'FivoSans-Bold';
+	font-size: 24px;
+	line-height: 61px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.feature-text {
+    font-family: 'FivoSans-Light';
+	line-height: 27px;
+    color: #88a3a2;
+    text-align: center;
+    padding: 0 80px;
+}
+
+.pic-time::before {
+    content: "";
+    position: absolute;
+    left: 105px;
+    bottom: 200px;
+    width: 239px;
+    height: 314px;
+    background-image: url(img/features-1.svg);
+    background-repeat: no-repeat;
+}
+
+.pic-video::before {
+    content: "";
+    position: absolute;
+    left: 530px;
+    bottom: 215px;
+    width: 239px;
+    height: 314px;
+    background-image: url(img/features-2.svg);
+    background-repeat: no-repeat;
+}
+
+.pic-access::before {
+    content: "";
+    position: absolute;
+    right: 200px;
+    bottom: 215px;
+    width: 239px;
+    height: 314px;
+    background-image: url(img/features-3.svg);
+    background-repeat: no-repeat;
+}
