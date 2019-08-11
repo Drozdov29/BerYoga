@@ -229,11 +229,6 @@ body {
 
 -----------------------------------------------------------------------
 
-.container-one {
-    min-height: 860px;
-    margin-bottom: 250px;
-}
-
 .container-one-item {
 	font-family: 'FivoSans-Bold';
 	font-size: 50px;
@@ -255,6 +250,7 @@ body {
 .container-one-features {
     display: flex;
     position: relative;
+    margin-bottom: 250px;
 }
 
 .featured-item {
@@ -306,3 +302,65 @@ body {
     background-image: url(img/features-3.svg);
     background-repeat: no-repeat;
 }
+
+--------------------------------------------------
+
+.container-two {
+    position: relative;
+    
+}
+
+.container-two-block {
+    width: 555px;
+    margin-left: 740px;
+}
+.container-two-block:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 701px;
+    height: 655px;
+    background-image: url("img/doings-left.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.container-two h2 {
+	font-family: 'FivoSans-Bold';
+	font-size: 50px;
+	line-height: 61px;
+    color: #000;
+    margin-bottom: 95px;
+}
+
+.doings__items {
+    font-family: 'FivoSans-Bold';
+	font-size: 24px;
+	line-height: 40px;
+    color: #000;
+    margin-bottom: 15px;
+    margin-left: 65px;
+    position: relative;
+}
+
+.doings__items::before {
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 24px;
+    left: -45px;
+    background-image: url("img/checkbox-red.png");
+    background-repeat: no-repeat;
+}
+
+.doings__text {
+    font-family: 'FivoSans-Light';
+	line-height: 40px;
+    color: #88a3a2;
+    margin-bottom: 50px;
+    margin-left: 65px;
+
+}
+
+
