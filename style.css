@@ -97,12 +97,12 @@ body {
     margin-bottom: 150px;
 }
 
-.container-header-logo p {
+.container-header-logo {
 	margin: 0;
     padding: 0;
     margin-right: 555px;
 	font-size: 32px;
-	line-height: 49px;
+	line-height: 48px;
 	font-family: 'FivoSans-Heavy';
 	color: #ff6a6d;
 }
