@@ -76,6 +76,7 @@ body {
 	font-size: 18px;
 	line-height: 20px;
     color: #000;
+    max-width: 1920px;
 }
 
 .wrapper-header {
@@ -88,11 +89,11 @@ body {
 }
 
 .wrapper {
-	width: 1400px;
+    width: 1400px;
     margin: 0 auto;
     padding: 0;
-    position: relative;
 }
+
 
 .navigate {
     display: flex;
@@ -227,26 +228,26 @@ body {
     box-shadow: -16px 16px 23.52px 0.48px rgba(226, 88, 91, 0.45);
 }
 
-.button-signup {
+.button-sign-up {
     background: transparent;
     cursor: pointer;
     color: #ff6a6d;
 }
 
 .button-service:hover,
-.button-signup:hover {  
+.button-sign-up:hover {  
     transition: all 0.5s ease;
     transform: translateY(-10px);
 }
 
 .button-service:active,
-.button-signup:active {  
+.button-sign-up:active {  
     background-color: green;
     color: yellow;
     border: none;
 }
 
-/* --------------------------------------------------------------- */
+/* ------------------   1   БЛОК    -------------------------------- */
 
 
 .container-one-item {
@@ -300,27 +301,44 @@ body {
     margin: 0;
     padding: 0 80px;
 }
-/* -------------------------------------------------------------------- */
+/* ---------------------  2 БЛОК ------------------------------------ */
 
 .container-two {
-    position: relative;    
+    position: relative;
+}
+
+.wrapper.two {
+    display: flex;
+}
+
+.container-two::before {
+    content: "";
+    position: absolute;
+    width: 229px;
+    height: 377px;
+    background-image: url(img/decorate-2.png);
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: 47%;
+}
+.container-two::after {
+    content: "";
+    position: absolute;
+    width: 135px;
+    height: 485px;
+    background-image: url(img/decorate-1.png);
+    background-repeat: no-repeat;
+    right: 0;
+    top: -115px;
 }
 
 .container-two-block {
     width: 555px;
-    margin-left: 740px;
-    margin-bottom: 450px;
+    margin-bottom: 440px;
 }
-.container-two-block:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 701px;
-    height: 655px;
-    background-image: url("img/doings-left.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+
+.container-two img {
+    padding-right: 50px;
 }
 
 .container-two h2 {
@@ -329,6 +347,7 @@ body {
 	line-height: 61px;
     color: #000;
     margin: 0;
+    padding-top: 30px;
     margin-bottom: 65px;
 }
 
@@ -362,7 +381,7 @@ body {
     margin-left: 65px;
 }
 
-/* ----------------------------------------------------------------- */
+/* ------------------   3 БЛОК  -------------------------------------- */
 
 .container-three-block {
     width: 740px;
@@ -424,27 +443,47 @@ body {
     background-position: 50% 50%;
 }
 
-/* ------------------------------------------------------- */
+/* ----------------     4    БЛОК    --------------------------------------- */
 
 .container-four {
-    display: relative;
+    display: flex;
+    position: relative;
 }
+
+.wrapper.four {
+    display: flex;
+}
+
 .container-four-block {
     width: 680px;
-    margin-left: 520px;
     margin-bottom: 140px;
 }
 
-.container-four-block:before {
+.container-four img{
+    padding-top: 40px;
+    padding-right: 60px;
+}
+
+.container-four::before {
     content: "";
     position: absolute;
-    left: -150px;
-    width: 629px;
-    height: 735px;
-    background-image: url("img/5ways.png");
+    width: 219px;
+    height: 445px;
+    background-image: url(img/decorate-3.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+    left: 0;
+    top: -360px;
+}
+
+.container-four::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 600px;
+    background-image: url(img/decorate-4.png);
+    background-repeat: no-repeat;
+    right: 0;
+    top: -320px;
 }
 
 .container-four-block h2 {
@@ -467,6 +506,7 @@ body {
     padding: 0 0 0 110px;
     text-indent: 52px;
 }
+
 .container-four-block p:first-of-type {
     margin: 0;
 }
