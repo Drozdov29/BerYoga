@@ -38,8 +38,7 @@
     url('font/FivoSans-Regular/FivoSans-Regular.svg') format('svg');
 }
 
-@font-face
-{
+@font-face{
     font-family: 'FivoSans-Oblique';
     font-weight: normal;
     font-style: normal;
@@ -52,8 +51,7 @@
     url('font/FivoSans-Oblique/FivoSans-Oblique.svg') format('svg');
 }
 
-@font-face
-{
+@font-face{
     font-family: 'FivoSans-Bold';
     font-weight: normal;
     font-style: normal;
@@ -66,8 +64,7 @@
     url('font/FivoSans-Bold/FivoSans-Bold.svg') format('svg');
 }
 
-@font-face
-{
+@font-face{
     font-family: 'FivoSans-Light';
     font-weight: normal;
     font-style: normal;
@@ -80,8 +77,7 @@
     url('font/FivoSans-Light/FivoSans-Light.svg') format('svg');
 }
 
-body
-{
+body{
     font-family: 'FivoSans-Regular';
     font-size: 18px;
     line-height: 20px;
@@ -95,25 +91,23 @@ body
     color: #000;
 }
 
-.wrapper-header
-{
+.head{
     min-height: 1334px;
-
+    width: 1920px;
+    height: 1334px;
     background-color: #fff;
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-position: top center;
 }
 
-.wrapper
-{
+.inner-navigate {
     width: 1420px;
     margin: 0 auto;
     padding: 0;
 }
 
-.navigate
-{
+.navigate{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -122,8 +116,7 @@ body
     padding-top: 80px;
 }
 
-.navigate-header-logo
-{
+.navigate-logo{
     font-family: 'FivoSans-Heavy';
     font-size: 32px;
     font-weight: 900;
@@ -136,8 +129,7 @@ body
     color: #ff6a6d;
 }
 
-.navigate-menu
-{
+.navigate-menu{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -154,8 +146,7 @@ body
         flex-wrap: wrap;
 }
 
-.navigate-menu__click
-{
+.navigate-menu__click{
     font-family: 'FivoSans-Regular';
     line-height: 36px;
 
@@ -169,20 +160,17 @@ body
     color: #1c2056;
 }
 
-.home
-{
+.home{
     font-weight: 700;
 
     color: #ff6a6d;
 }
 
-.navigate-menu li:last-child a
-{
+.navigate-menu li:last-child a{
     margin-right: 110px;
 }
 
-.navigate-menu__click:hover
-{
+.navigate-menu__click:hover{
     -webkit-transition: color .3s ease;
          -o-transition: color .3s ease;
             transition: color .3s ease;
@@ -190,39 +178,33 @@ body
     color: #ff6a6d;
 }
 
-.navigate-menu__click:active
-{
-    opacity: .5;
+.navigate-menu__click:active{
+    opacity: 0.5;
 }
 
-.button
-{
+.button {
     display: inline-block;
-
-    min-width: 140px;
-    min-height: 42px;
-    margin-top: 5px;
-    padding-top: 2px;
 
     text-align: center;
     vertical-align: top;
-    word-wrap: break-word;
-
-    border-radius: 20px;
-    background-color: #ff6a6d;
-}
-
-.button-login
-{
-    line-height: 36px;
-
     text-decoration: none;
+    word-wrap: break-word;
 
     color: #fff;
 }
 
-.button-login:hover
-{
+.button-login {
+    line-height: 36px;
+    margin-top: 7px;
+    padding: 0 49px;
+
+    text-decoration: none;
+
+    border-radius: 21px;
+    background-color: #ff6a6d;
+}
+
+.button-login:hover{
     -webkit-transition: all .5s ease;
          -o-transition: all .5s ease;
             transition: all .5s ease;
@@ -234,8 +216,7 @@ body
             box-shadow: 0 5px 5px 1px rgba(226, 88, 91, .4);
 }
 
-.button-login:active
-{
+.button-login:active{
     -webkit-transition: all 1s ease;
          -o-transition: all 1s ease;
             transition: all 1s ease;
@@ -244,14 +225,12 @@ body
             box-shadow: inset 0 0 15px 2px #ff585b;
 }
 
-.container-text
-{
+.inner-navigate__text{
     margin-right: 710px;
     margin-left: 120px;
 }
 
-.container-text h2
-{
+.inner-navigate__text h2{
     font-family: 'FivoSans-Bold';
     font-size: 50px;
     line-height: 61px;
@@ -261,32 +240,26 @@ body
 
     color: #000;
 }
-.container-text p
-{
+.inner-navigate__text p{
     font-family: 'FivoSans-Light';
     line-height: 40px;
 
     margin: 0;
     padding: 0;
     padding-right: 95px;
+    margin-bottom: 70px;
 
     color: #88a3a2;
 }
 
-.content-text.item
-{
-    margin-bottom: 70px;
-}
-
-.button-big
-{
+.button-big {
     font-size: 20px;
     line-height: 40px;
+    width: 240px;
+    min-height: 80px;
 
     display: inline-block;
 
-    min-width: 240px;
-    min-height: 80px;
     margin-right: 30px;
 
     text-align: center;
@@ -295,19 +268,17 @@ body
     color: #fff;
     border: 2px solid #ff6a6d;
     border-radius: 40px;
+    background-color: #ff6a6d;
 }
 
-.button-service
-{
+.button-service {
     cursor: pointer;
 
-    background-color: #ff6a6d;
     -webkit-box-shadow: -16px 16px 23.52px .48px rgba(226, 88, 91, .45);
             box-shadow: -16px 16px 23.52px .48px rgba(226, 88, 91, .45);
 }
 
-.button-sign-up
-{
+.button-sign-up {
     cursor: pointer;
 
     color: #ff6a6d;
@@ -315,8 +286,7 @@ body
 }
 
 .button-service:hover,
-.button-sign-up:hover
-{
+.button-sign-up:hover{
     -webkit-transition: all .5s ease;
          -o-transition: all .5s ease;
             transition: all .5s ease;
@@ -326,8 +296,7 @@ body
 }
 
 .button-service:active,
-.button-sign-up:active
-{
+.button-sign-up:active{
     color: yellow;
     border: none;
     background-color: green;
@@ -336,8 +305,7 @@ body
 /* ------------------   1   БЛОК    -------------------------------- */
 
 
-.container-one-item
-{
+.container-one-item{
     font-family: 'FivoSans-Bold';
     font-size: 50px;
     line-height: 61px;
@@ -350,8 +318,7 @@ body
     color: #000;
 }
 
-.container-one-text
-{
+.container-one-text{
     font-family: 'FivoSans-Light';
     line-height: 40px;
 
@@ -365,8 +332,7 @@ body
     color: #88a3a2;
 }
 
-.container-one-features
-{
+.container-one-features{
     position: relative;
 
     display: -webkit-box;
@@ -380,15 +346,13 @@ body
     justify-content: space-between;
 }
 
-.features
-{
+.features{
     width: 466px;
 
     text-align: center;
 }
 
-.featured-item
-{
+.featured-item{
     font-family: 'FivoSans-Bold';
     font-size: 24px;
     line-height: 61px;
@@ -400,8 +364,7 @@ body
     color: #000;
 }
 
-.feature-text
-{
+.feature-text{
     font-family: 'FivoSans-Light';
     line-height: 27px;
 
@@ -415,20 +378,17 @@ body
 }
 /* ---------------------  2 БЛОК ------------------------------------ */
 
-.container-two
-{
+.container-two{
     position: relative;
 }
 
-.wrapper.two
-{
+.wrapper.two{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 
-.container-two::before
-{
+.container-two::before{
     position: absolute;
     bottom: 47%;
     left: 0;
@@ -441,8 +401,8 @@ body
     background-image: url(../img/decorate-2.png);
     background-repeat: no-repeat;
 }
-.container-two::after
-{
+
+.container-two::after{
     position: absolute;
     top: -115px;
     right: 0;
@@ -456,19 +416,16 @@ body
     background-repeat: no-repeat;
 }
 
-.container-two-block
-{
+.container-two-block{
     width: 555px;
     margin-bottom: 440px;
 }
 
-.container-two img
-{
+.container-two img{
     padding-right: 50px;
 }
 
-.container-two h2
-{
+.container-two h2{
     font-family: 'FivoSans-Bold';
     font-size: 50px;
     line-height: 61px;
@@ -480,8 +437,7 @@ body
     color: #000;
 }
 
-.doings__items
-{
+.doings__items{
     font-family: 'FivoSans-Bold';
     font-size: 24px;
     line-height: 40px;
@@ -495,8 +451,7 @@ body
     color: #656565;
 }
 
-.doings__items::before
-{
+.doings__items::before{
     position: absolute;
     left: -45px;
 
@@ -509,8 +464,7 @@ body
     background-repeat: no-repeat;
 }
 
-.doings__text
-{
+.doings__text{
     font-family: 'FivoSans-Light';
     line-height: 40px;
 
@@ -523,8 +477,7 @@ body
 
 /* ------------------   3 БЛОК  -------------------------------------- */
 
-.container-three-block
-{
+.container-three-block{
     position: relative;
 
     width: 740px;
@@ -532,8 +485,7 @@ body
     margin-bottom: 290px;
 }
 
-.container-three-block span
-{
+.container-three-block span{
     font-family: 'FivoSans-Oblique';
     font-size: 20px;
     line-height: 40px;
@@ -544,8 +496,7 @@ body
     color: #9e9f9f;
 }
 
-.container-three-block h2
-{
+.container-three-block h2{
     font-family: 'FivoSans-Bold';
     font-size: 50px;
     line-height: 61px;
@@ -557,8 +508,7 @@ body
     color: #3b3838;
 }
 
-.container-three-block p
-{
+.container-three-block p{
     font-family: 'FivoSans-Light';
     line-height: 40px;
 
@@ -570,8 +520,7 @@ body
     color: #88a3a2;
 }
 
-.container-three-block a
-{
+.container-three-block a{
     font-family: 'FivoSans-Oblique';
     line-height: 40px;
 
@@ -585,8 +534,7 @@ body
     color: #3cbef1;
 }
 
-.container-three-block:before
-{
+.container-three-block:before{
     position: absolute;
     bottom: 0;
     left: 710px;
@@ -604,8 +552,7 @@ body
 
 /* ----------------     4    БЛОК    --------------------------------------- */
 
-.container-four
-{
+.container-four{
     position: relative;
 
     display: -webkit-box;
@@ -613,27 +560,23 @@ body
     display: flex;
 }
 
-.wrapper.four
-{
+.wrapper.four{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 
-.container-four-block
-{
+.container-four-block{
     width: 680px;
     margin-bottom: 190px;
 }
 
-.container-four img
-{
+.container-four img{
     padding-top: 40px;
     padding-right: 60px;
 }
 
-.container-four::before
-{
+.container-four::before{
     position: absolute;
     top: -360px;
     left: 0;
@@ -647,8 +590,7 @@ body
     background-repeat: no-repeat;
 }
 
-.container-four::after
-{
+.container-four::after{
     position: absolute;
     top: -320px;
     right: 0;
@@ -662,8 +604,7 @@ body
     background-repeat: no-repeat;
 }
 
-.container-four-block h2
-{
+.container-four-block h2{
     font-family: 'FivoSans-Bold';
     font-size: 45px;
     line-height: 67px;
@@ -675,8 +616,7 @@ body
     color: #3b3838;
 }
 
-.container-four-block p
-{
+.container-four-block p{
     font-family: 'FivoSans-Light';
     line-height: 40px;
 
@@ -690,13 +630,11 @@ body
     color: #88a3a2;
 }
 
-.container-four-block p:first-of-type
-{
+.container-four-block p:first-of-type{
     margin: 0;
 }
 
-.container-four-block a
-{
+.container-four-block a{
     font-family: 'FivoSans-Oblique';
     line-height: 40px;
 
@@ -710,19 +648,17 @@ body
     color: #3cbef1;
 }
 
-/* -----------------    FOOTER  ----------------------------------- */
+/* -----------------    FOOTER  а----------------------------------- */
 
-footer
-{
+footer{
     width: 1920px;
-
+    height: 1562px;
     background-image: url(../img/footer-img.jpg);
     background-repeat: no-repeat;
     background-position: center 0;
 }
 
-.container-price
-{
+.container-price{
     position: relative;
 
     display: -webkit-box;
@@ -740,8 +676,7 @@ footer
 }
 
 .price-cart-one,
-.price-cart-three
-{
+.price-cart-three{
     position: relative;
 
     width: 473px;
@@ -752,8 +687,7 @@ footer
     background-color: #fff;
 }
 
-.price-cart-two
-{
+.price-cart-two{
     position: relative;
     z-index: 1;
 
@@ -766,20 +700,17 @@ footer
             box-shadow: -24px 28px 136px 0 rgba(226, 88, 91, .19);
 }
 
-.price-cart-one
-{
+.price-cart-one{
     -webkit-box-shadow: -27px 32px 35px 0 rgba(255, 106, 109, .15);
             box-shadow: -27px 32px 35px 0 rgba(255, 106, 109, .15);
 }
 
-.price-cart-three
-{
+.price-cart-three{
     -webkit-box-shadow: 27px 32px 35px 0 rgba(255, 106, 109, .15);
             box-shadow: 27px 32px 35px 0 rgba(255, 106, 109, .15);
 }
 
-.price-cart-three h3
-{
+.price-cart-three h3{
     font-family: 'FivoSans-Bold';
     font-size: 30px;
     line-height: 29px;
@@ -792,8 +723,7 @@ footer
     color: #7a7a7a;
 }
 
-.price-list
-{
+.price-list{
     position: relative;
 
     margin: 0;
@@ -802,8 +732,7 @@ footer
     list-style: none;
 }
 
-.price-list__subtitle
-{
+.price-list__subtitle{
     font-family: 'FivoSans-Regular';
     line-height: 29px;
 
@@ -821,17 +750,15 @@ footer
     color: #3b3838;
 }
 
-.price-list__subtitle:last-of-type
-{
+.price-list__subtitle:last-of-type{
     margin-bottom: 40px;
 }
-.subtitle-up
-{
+
+.subtitle-up{
     margin-top: 80px;
 }
 
-.checkbox-blue:before
-{
+.checkbox-blue:before{
     position: absolute;
     top: -5px;
     left: 65px;
@@ -845,8 +772,7 @@ footer
     background-repeat: no-repeat;
 }
 
-.price-list__text
-{
+.price-list__text{
     font-family: 'FivoSans-Regular';
     font-size: 150px;
     line-height: 29px;
@@ -859,19 +785,17 @@ footer
     color: #7e7c7c;
 }
 
-.price-list__text sup
-{
+.price-list__text sup {
     font-family: 'FivoSans-Regular';
     font-size: 48px;
     line-height: 29px;
 
-    vertical-align: text-top;
+    vertical-align: super;
 
     color: #7e7c7c;
 }
 
-.price-list__text sub
-{
+.price-list__text sub{
     font-family: 'FivoSans-Regular';
     font-size: 30px;
     line-height: 29px;
@@ -881,8 +805,7 @@ footer
     color: #7e7c7c;
 }
 
-.price-list__text-subtext
-{
+.price-list__text-subtext{
     font-family: 'FivoSans-Oblique';
     line-height: 29px;
 
@@ -894,8 +817,7 @@ footer
     color: #888686;
 }
 
-.button-member-one
-{
+.button-card {
     font-family: 'FivoSans-Medium';
     line-height: 29px;
 
@@ -909,6 +831,10 @@ footer
     word-wrap: break-word;
 
     color: #fff;
+    border-radius: 37px;
+}
+
+.button-card__one {
     border-radius: 37px;
     background: -o-linear-gradient(24deg, rgba(95,206,245,1) 0%, rgba(131,228,252,1) 100%);
     background:    linear-gradient(66deg, rgba(95,206,245,1) 0%, rgba(131,228,252,1) 100%);
@@ -917,22 +843,7 @@ footer
             box-shadow: -13px 16px 23.52px .48px rgba(95, 206, 244, .29);
 }
 
-.button-member-three
-{
-    font-family: 'FivoSans-Medium';
-    line-height: 29px;
-
-    display: inline-block;
-
-    padding: 23px 31px;
-
-    text-align: center;
-    vertical-align: top;
-    text-decoration: none;
-    word-wrap: break-word;
-
-    color: #fff;
-    border-radius: 37px;
+.button-card__three {
     background: -o-linear-gradient(24deg, rgba(33,172,221,1) 0%, rgba(157,218,233,1) 100%);
     background:    linear-gradient(66deg, rgba(33,172,221,1) 0%, rgba(157,218,233,1) 100%);
     background-color: rgba(33,172,221,1);
@@ -940,8 +851,7 @@ footer
             box-shadow: -13px 16px 23.52px .48px rgba(95, 206, 244, .29);
 }
 
-.price-cart-two h3
-{
+.price-cart-two h3{
     font-family: 'FivoSans-Bold';
     font-size: 30px;
     line-height: 29px;
@@ -956,8 +866,7 @@ footer
     background-color: #ff6a6d;
 }
 
-.checkbox-red::before
-{
+.checkbox-red::before{
     position: absolute;
     top: -5px;
     left: 65px;
@@ -971,30 +880,14 @@ footer
     background-repeat: no-repeat;
 }
 
-.button-member-two
-{
-    font-family: 'FivoSans-Medium';
-    line-height: 29px;
-
-    display: inline-block;
-
-    padding: 23px 31px;
-
-    text-align: center;
-    vertical-align: top;
-    text-decoration: none;
-    word-wrap: break-word;
-
-    color: #fff;
-    border-radius: 37px;
+.button-card__two {
     background-color: #ff6a6d;
     -webkit-box-shadow: -13px 16px 23.52px .48px rgba(226, 88, 91, .29);
             box-shadow: -13px 16px 23.52px .48px rgba(226, 88, 91, .29);
 }
 
 /* ---------------- */
-.container-footer
-{
+.container-footer{
     width: 1423px;
     margin: 0 auto;
 
@@ -1002,8 +895,7 @@ footer
     background-color: rgba(255, 255, 255, .5);
 }
 
-.container-link
-{
+.container-link{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1018,8 +910,7 @@ footer
     justify-content: space-between;
 }
 
-.link-header
-{
+.link-header{
     font-family: 'FivoSans-Regular';
     line-height: 40px;
 
@@ -1030,8 +921,7 @@ footer
     color: #2e2e2e;
 }
 
-.link-contact
-{
+.link-contact{
     font-family: 'FivoSans-Regular';
     font-size: 16px;
     line-height: 30px;
@@ -1041,16 +931,14 @@ footer
     color: #56686c;
 }
 
-.link-text
-{
+.link-text{
     margin: 0;
     padding: 0;
 
     list-style: none;
 }
 
-.link-subtext
-{
+.link-subtext{
     font-family: 'FivoSans-Regular';
     font-size: 16px;
     line-height: 36px;
@@ -1059,15 +947,13 @@ footer
     padding-bottom: 7px;
 }
 
-.link-subtext a
-{
+.link-subtext a{
     text-decoration: none;
 
     color: #2e2e2e;
 }
 
-.text-copyright
-{
+.text-copyright{
     font-family: 'FivoSans-Regular';
     line-height: 36px;
 
