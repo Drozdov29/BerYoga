@@ -183,7 +183,6 @@ body {
 .container-text {
     margin-left: 120px;
     margin-right: 710px;
-    margin-bottom: 450px;
 }
 
 .container-text h2 {
@@ -455,7 +454,7 @@ body {
 
 .container-four-block {
     width: 680px;
-    margin-bottom: 140px;
+    margin-bottom: 190px;
 }
 
 .container-four img{
@@ -521,13 +520,22 @@ body {
     padding-left: 110px;
 }
 
-/* ----------------------   5   БЛОК    ----------------------------------- */
+/* -----------------    FOOTER  ----------------------------------- */
+
+footer {
+    background-image: url(img/footer-img.jpg);
+    background-repeat: no-repeat;
+    width: 1920px;
+    background-position: center 0;
+}
 
 .container-price {
     display: flex;
     text-align: center;
     justify-content: center;
     position: relative;
+    padding-top: 17px;
+    margin-bottom: 206px;
 }
 
 .price-cart-one,
@@ -714,11 +722,61 @@ box-shadow: -27px 32px 35px 0px rgba(255, 106, 109, 0.15);
     box-shadow: -13px 16px 23.52px 0.48px rgba(226, 88, 91, 0.29);    padding: 23px 31px;
 }
 
-.price-cart-one:hover,
-.price-cart-two:hover,
-.price-cart-three:hover {
-    transform: scale(1.1);
-    z-index: 2;
-    border: 1px solid #ff585b;
-    transition: all 1s ease;
+/* ---------------- */
+.container-footer {
+    margin: 0 auto;
+    background-color:  rgba(255, 255, 255, 0.5);
+    width: 1423px;
+    border-radius: 176px 176px 0 0;
+}
+
+.container-link {
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 116px 160px 110px 160px;
+}
+
+.link-header {
+	padding: 0;
+	font-family: 'FivoSans-Regular';
+	line-height: 40px;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+
+.link-contact {
+    padding: 0;
+    font-size: 16px;
+	font-family: 'FivoSans-Regular';
+	line-height: 30px;
+    color: #56686c;
+}
+
+.link-text {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-subtext{
+    padding: 0;
+    font-size: 16px;
+	font-family: 'FivoSans-Regular';
+    line-height: 36px;
+    padding-bottom: 7px;
+}
+
+.link-subtext a{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+.text-copyright {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	font-family: 'FivoSans-Regular';
+    line-height: 36px;
 }

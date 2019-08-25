@@ -1,0 +1,1078 @@
+@font-face
+{
+    font-family: 'FivoSans-Heavy';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url('font/FivoSans-Heavy/FivoSans-Heavy.woff2') format('woff2'),
+    url('font/FivoSans-Heavy/FivoSans-Heavy.woff') format('woff'),
+    url('font/FivoSans-Heavy/FivoSans-Heavy.ttf') format('truetype'),
+    url('font/FivoSans-Heavy/FivoSans-Heavy.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'FivoSans-Medium';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('font/FivoSans-Medium/FivoSans-Medium.eot');
+    src: url('font/FivoSans-Medium/FivoSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('font/FivoSans-Medium/FivoSans-Medium.woff2') format('woff2'),
+    url('font/FivoSans-Medium/FivoSans-Medium.woff') format('woff'),
+    url('font/FivoSans-Regular/FivoSans-Regular.ttf') format('truetype'),
+    url('font/FivoSans-Regular/FivoSans-Regular.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'FivoSans-Regular';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('font/FivoSans-Regular/FivoSans-Regular.eot');
+    src: url('font/FivoSans-Regular/FivoSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/FivoSans-Regular/FivoSans-Regular.woff2') format('woff2'),
+    url('font/FivoSans-Regular/FivoSans-Regular.woff') format('woff'),
+    url('font/FivoSans-Regular/FivoSans-Regular.ttf') format('truetype'),
+    url('font/FivoSans-Regular/FivoSans-Regular.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'FivoSans-Oblique';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('font/FivoSans-Oblique/FivoSans-Oblique.eot');
+    src: url('font/FivoSans-Oblique/FivoSans-Oblique.eot?#iefix') format('embedded-opentype'),
+    url('font/FivoSans-Oblique/FivoSans-Oblique.woff2') format('woff2'),
+    url('font/FivoSans-Oblique/FivoSans-Oblique.woff') format('woff'),
+    url('font/FivoSans-Oblique/FivoSans-Oblique.ttf') format('truetype'),
+    url('font/FivoSans-Oblique/FivoSans-Oblique.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'FivoSans-Bold';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('font/FivoSans-Bold/FivoSans-Bold.eot');
+    src: url('font/FivoSans-Bold/FivoSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('font/FivoSans-Bold/FivoSans-Bold.woff2') format('woff2'),
+    url('font/FivoSans-Bold/FivoSans-Bold.woff') format('woff'),
+    url('font/FivoSans-Bold/FivoSans-Bold.ttf') format('truetype'),
+    url('font/FivoSans-Bold/FivoSans-Bold.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'FivoSans-Light';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('font/FivoSans-Light/FivoSans-Light.eot');
+    src: url('font/FivoSans-Light/FivoSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('font/FivoSans-Light/FivoSans-Light.woff2') format('woff2'),
+    url('font/FivoSans-Light/FivoSans-Light.woff') format('woff'),
+    url('font/FivoSans-Light/FivoSans-Light.ttf') format('truetype'),
+    url('font/FivoSans-Light/FivoSans-Light.svg') format('svg');
+}
+
+body
+{
+    font-family: 'FivoSans-Regular';
+    font-size: 18px;
+    line-height: 20px;
+
+    position: relative;
+
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+
+    color: #000;
+}
+
+.wrapper-header
+{
+    min-height: 1334px;
+
+    background-color: #fff;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.wrapper
+{
+    width: 1423px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navigate
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin-bottom: 150px;
+    padding-top: 80px;
+}
+
+.navigate-header-logo
+{
+    font-family: 'FivoSans-Heavy';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 48px;
+
+    margin: 0;
+    margin-right: 548px;
+    padding: 0;
+
+    color: #ff6a6d;
+}
+
+.navigate-menu
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin: 0;
+    margin-top: 8px;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.navigate-menu__click
+{
+    font-family: 'FivoSans-Regular';
+    line-height: 36px;
+
+    margin: 0;
+    margin-right: 69px;
+    padding: 0;
+
+    text-decoration: none;
+    text-transform: capitalize;
+
+    color: #1c2056;
+}
+
+.home
+{
+    font-weight: 700;
+
+    color: #ff6a6d;
+}
+
+.navigate-menu li:last-child a
+{
+    margin-right: 110px;
+}
+
+.navigate-menu__click:hover
+{
+    -webkit-transition: color .3s ease;
+         -o-transition: color .3s ease;
+            transition: color .3s ease;
+
+    color: #ff6a6d;
+}
+
+.navigate-menu__click:active
+{
+    opacity: .5;
+}
+
+.button
+{
+    display: inline-block;
+
+    min-width: 140px;
+    min-height: 42px;
+    margin-top: 5px;
+    padding-top: 2px;
+
+    text-align: center;
+    vertical-align: top;
+    word-wrap: break-word;
+
+    border-radius: 20px;
+    background-color: #ff6a6d;
+}
+
+.button-login
+{
+    line-height: 36px;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.button-login:hover
+{
+    -webkit-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
+
+    -webkit-box-shadow: 0 5px 5px 1px rgba(226, 88, 91, .4);
+            box-shadow: 0 5px 5px 1px rgba(226, 88, 91, .4);
+}
+
+.button-login:active
+{
+    -webkit-transition: all 1s ease;
+         -o-transition: all 1s ease;
+            transition: all 1s ease;
+
+    -webkit-box-shadow: inset 0 0 15px 2px #ff585b;
+            box-shadow: inset 0 0 15px 2px #ff585b;
+}
+
+.container-text
+{
+    margin-right: 710px;
+    margin-left: 120px;
+}
+
+.container-text h2
+{
+    font-family: 'FivoSans-Bold';
+    font-size: 50px;
+    line-height: 61px;
+
+    margin: 0;
+    margin-bottom: 65px;
+
+    color: #000;
+}
+.container-text p
+{
+    font-family: 'FivoSans-Light';
+    line-height: 40px;
+
+    margin: 0;
+    padding: 0;
+    padding-right: 95px;
+
+    color: #88a3a2;
+}
+
+.content-text.item
+{
+    margin-bottom: 70px;
+}
+
+.button-big
+{
+    font-size: 20px;
+    line-height: 40px;
+
+    display: inline-block;
+
+    min-width: 240px;
+    min-height: 80px;
+    margin-right: 30px;
+
+    text-align: center;
+    vertical-align: top;
+
+    color: #fff;
+    border: 2px solid #ff6a6d;
+    border-radius: 40px;
+}
+
+.button-service
+{
+    cursor: pointer;
+
+    background-color: #ff6a6d;
+    -webkit-box-shadow: -16px 16px 23.52px .48px rgba(226, 88, 91, .45);
+            box-shadow: -16px 16px 23.52px .48px rgba(226, 88, 91, .45);
+}
+
+.button-sign-up
+{
+    cursor: pointer;
+
+    color: #ff6a6d;
+    background: transparent;
+}
+
+.button-service:hover,
+.button-sign-up:hover
+{
+    -webkit-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
+}
+
+.button-service:active,
+.button-sign-up:active
+{
+    color: yellow;
+    border: none;
+    background-color: green;
+}
+
+/* ------------------   1   БЛОК    -------------------------------- */
+
+
+.container-one-item
+{
+    font-family: 'FivoSans-Bold';
+    font-size: 50px;
+    line-height: 61px;
+
+    margin: 0;
+    margin-bottom: 35px;
+
+    text-align: center;
+
+    color: #000;
+}
+
+.container-one-text
+{
+    font-family: 'FivoSans-Light';
+    line-height: 40px;
+
+    margin: 0;
+    margin-bottom: 115px;
+    padding: 0;
+    padding: 0 350px;
+
+    text-align: center;
+
+    color: #88a3a2;
+}
+
+.container-one-features
+{
+    position: relative;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin-bottom: 250px;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.features
+{
+    width: 466px;
+
+    text-align: center;
+}
+
+.featured-item
+{
+    font-family: 'FivoSans-Bold';
+    font-size: 24px;
+    line-height: 61px;
+
+    margin-bottom: 18px;
+
+    text-align: center;
+
+    color: #000;
+}
+
+.feature-text
+{
+    font-family: 'FivoSans-Light';
+    line-height: 27px;
+
+    margin: 0;
+    padding: 0;
+    padding: 0 80px;
+
+    text-align: center;
+
+    color: #88a3a2;
+}
+/* ---------------------  2 БЛОК ------------------------------------ */
+
+.container-two
+{
+    position: relative;
+}
+
+.wrapper.two
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.container-two::before
+{
+    position: absolute;
+    bottom: 47%;
+    left: 0;
+
+    width: 229px;
+    height: 377px;
+
+    content: '';
+
+    background-image: url(img/decorate-2.png);
+    background-repeat: no-repeat;
+}
+.container-two::after
+{
+    position: absolute;
+    top: -115px;
+    right: 0;
+
+    width: 135px;
+    height: 485px;
+
+    content: '';
+
+    background-image: url(img/decorate-1.png);
+    background-repeat: no-repeat;
+}
+
+.container-two-block
+{
+    width: 555px;
+    margin-bottom: 440px;
+}
+
+.container-two img
+{
+    padding-right: 50px;
+}
+
+.container-two h2
+{
+    font-family: 'FivoSans-Bold';
+    font-size: 50px;
+    line-height: 61px;
+
+    margin: 0;
+    margin-bottom: 65px;
+    padding-top: 30px;
+
+    color: #000;
+}
+
+.doings__items
+{
+    font-family: 'FivoSans-Bold';
+    font-size: 24px;
+    line-height: 40px;
+
+    position: relative;
+
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 65px;
+
+    color: #656565;
+}
+
+.doings__items::before
+{
+    position: absolute;
+    left: -45px;
+
+    width: 31px;
+    height: 24px;
+
+    content: '';
+
+    background-image: url('img/checkbox.png');
+    background-repeat: no-repeat;
+}
+
+.doings__text
+{
+    font-family: 'FivoSans-Light';
+    line-height: 40px;
+
+    margin: 0;
+    margin-bottom: 45px;
+    margin-left: 65px;
+
+    color: #88a3a2;
+}
+
+/* ------------------   3 БЛОК  -------------------------------------- */
+
+.container-three-block
+{
+    position: relative;
+
+    width: 740px;
+    margin-right: 680px;
+    margin-bottom: 290px;
+}
+
+.container-three-block span
+{
+    font-family: 'FivoSans-Oblique';
+    font-size: 20px;
+    line-height: 40px;
+
+    margin-bottom: 15px;
+    padding-left: 55px;
+
+    color: #9e9f9f;
+}
+
+.container-three-block h2
+{
+    font-family: 'FivoSans-Bold';
+    font-size: 50px;
+    line-height: 61px;
+
+    margin: 0;
+    margin-bottom: 70px;
+    padding-left: 55px;
+
+    color: #3b3838;
+}
+
+.container-three-block p
+{
+    font-family: 'FivoSans-Light';
+    line-height: 40px;
+
+    margin: 0;
+    margin-bottom: 70px;
+    padding: 0;
+    padding: 0 220px 0 110px;
+
+    color: #88a3a2;
+}
+
+.container-three-block a
+{
+    font-family: 'FivoSans-Oblique';
+    line-height: 40px;
+
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    padding-left: 110px;
+
+    text-decoration: none;
+
+    color: #3cbef1;
+}
+
+.container-three-block:before
+{
+    position: absolute;
+    bottom: 0;
+    left: 710px;
+
+    width: 661px;
+    height: 640px;
+
+    content: '';
+
+    background-image: url('img/healing.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/* ----------------     4    БЛОК    --------------------------------------- */
+
+.container-four
+{
+    position: relative;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.wrapper.four
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.container-four-block
+{
+    width: 680px;
+    margin-bottom: 190px;
+}
+
+.container-four img
+{
+    padding-top: 40px;
+    padding-right: 60px;
+}
+
+.container-four::before
+{
+    position: absolute;
+    top: -360px;
+    left: 0;
+
+    width: 219px;
+    height: 445px;
+
+    content: '';
+
+    background-image: url(img/decorate-3.png);
+    background-repeat: no-repeat;
+}
+
+.container-four::after
+{
+    position: absolute;
+    top: -320px;
+    right: 0;
+
+    width: 200px;
+    height: 600px;
+
+    content: '';
+
+    background-image: url(img/decorate-4.png);
+    background-repeat: no-repeat;
+}
+
+.container-four-block h2
+{
+    font-family: 'FivoSans-Bold';
+    font-size: 45px;
+    line-height: 67px;
+
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 0;
+
+    color: #3b3838;
+}
+
+.container-four-block p
+{
+    font-family: 'FivoSans-Light';
+    line-height: 40px;
+
+    margin: 0;
+    margin-bottom: 70px;
+    padding: 0;
+    padding: 0 0 0 110px;
+
+    text-indent: 52px;
+
+    color: #88a3a2;
+}
+
+.container-four-block p:first-of-type
+{
+    margin: 0;
+}
+
+.container-four-block a
+{
+    font-family: 'FivoSans-Oblique';
+    line-height: 40px;
+
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    padding-left: 110px;
+
+    text-decoration: none;
+
+    color: #3cbef1;
+}
+
+/* -----------------    FOOTER  ----------------------------------- */
+
+footer
+{
+    width: 1920px;
+
+    background-image: url(img/footer-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.container-price
+{
+    position: relative;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin-bottom: 206px;
+    padding-top: 17px;
+
+    text-align: center;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.price-cart-one,
+.price-cart-three
+{
+    position: relative;
+
+    width: 473px;
+    height: 689px;
+    margin-top: 43px;
+
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.price-cart-two
+{
+    position: relative;
+    z-index: 1;
+
+    width: 502px;
+    height: 771px;
+
+    border-radius: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: -24px 28px 136px 0 rgba(226, 88, 91, .19);
+            box-shadow: -24px 28px 136px 0 rgba(226, 88, 91, .19);
+}
+
+.price-cart-one
+{
+    -webkit-box-shadow: -27px 32px 35px 0 rgba(255, 106, 109, .15);
+            box-shadow: -27px 32px 35px 0 rgba(255, 106, 109, .15);
+}
+
+.price-cart-three
+{
+    -webkit-box-shadow: 27px 32px 35px 0 rgba(255, 106, 109, .15);
+            box-shadow: 27px 32px 35px 0 rgba(255, 106, 109, .15);
+}
+
+.price-cart-three h3
+{
+    font-family: 'FivoSans-Bold';
+    font-size: 30px;
+    line-height: 29px;
+
+    margin: 0;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 0;
+
+    color: #7a7a7a;
+}
+
+.price-list
+{
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.price-list__subtitle
+{
+    font-family: 'FivoSans-Regular';
+    line-height: 29px;
+
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+    padding-bottom: 39px;
+    padding-left: 130px;
+
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+
+    color: #3b3838;
+}
+
+.price-list__subtitle:last-of-type
+{
+    margin-bottom: 40px;
+}
+.subtitle-up
+{
+    margin-top: 80px;
+}
+
+.checkbox-blue:before
+{
+    position: absolute;
+    top: -5px;
+    left: 65px;
+
+    width: 40px;
+    height: 40px;
+
+    content: '';
+
+    background-image: url(img/checkbox-blue.png);
+    background-repeat: no-repeat;
+}
+
+.price-list__text
+{
+    font-family: 'FivoSans-Regular';
+    font-size: 150px;
+    line-height: 29px;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    color: #7e7c7c;
+}
+
+.price-list__text sup
+{
+    font-family: 'FivoSans-Regular';
+    font-size: 48px;
+    line-height: 29px;
+
+    vertical-align: text-top;
+
+    color: #7e7c7c;
+}
+
+.price-list__text sub
+{
+    font-family: 'FivoSans-Regular';
+    font-size: 30px;
+    line-height: 29px;
+
+    vertical-align: bottom;
+
+    color: #7e7c7c;
+}
+
+.price-list__text-subtext
+{
+    font-family: 'FivoSans-Oblique';
+    line-height: 29px;
+
+    margin: 0;
+    margin-top: 37px;
+    margin-bottom: 55px;
+    padding: 0;
+
+    color: #888686;
+}
+
+.button-member-one
+{
+    font-family: 'FivoSans-Medium';
+    line-height: 29px;
+
+    display: inline-block;
+
+    padding: 23px 31px;
+
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    word-wrap: break-word;
+
+    color: #fff;
+    border-radius: 37px;
+    background: -o-linear-gradient(24deg, rgba(95,206,245,1) 0%, rgba(131,228,252,1) 100%);
+    background:    linear-gradient(66deg, rgba(95,206,245,1) 0%, rgba(131,228,252,1) 100%);
+    background-color: rgba(95,206,245,1);
+    -webkit-box-shadow: -13px 16px 23.52px .48px rgba(95, 206, 244, .29);
+            box-shadow: -13px 16px 23.52px .48px rgba(95, 206, 244, .29);
+}
+
+.button-member-three
+{
+    font-family: 'FivoSans-Medium';
+    line-height: 29px;
+
+    display: inline-block;
+
+    padding: 23px 31px;
+
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    word-wrap: break-word;
+
+    color: #fff;
+    border-radius: 37px;
+    background: -o-linear-gradient(24deg, rgba(33,172,221,1) 0%, rgba(157,218,233,1) 100%);
+    background:    linear-gradient(66deg, rgba(33,172,221,1) 0%, rgba(157,218,233,1) 100%);
+    background-color: rgba(33,172,221,1);
+    -webkit-box-shadow: -13px 16px 23.52px .48px rgba(95, 206, 244, .29);
+            box-shadow: -13px 16px 23.52px .48px rgba(95, 206, 244, .29);
+}
+
+.price-cart-two h3
+{
+    font-family: 'FivoSans-Bold';
+    font-size: 30px;
+    line-height: 29px;
+
+    margin: 0;
+    margin-bottom: 64px;
+    padding: 0;
+    padding: 40px 0 40px 0;
+
+    color: #fbfcfc;
+    border-radius: 20px 20px 0 0;
+    background-color: #ff6a6d;
+}
+
+.checkbox-red::before
+{
+    position: absolute;
+    top: -5px;
+    left: 65px;
+
+    width: 38px;
+    height: 38px;
+
+    content: '';
+
+    background-image: url(img/checkbox-red.png);
+    background-repeat: no-repeat;
+}
+
+.button-member-two
+{
+    font-family: 'FivoSans-Medium';
+    line-height: 29px;
+
+    display: inline-block;
+
+    padding: 23px 31px;
+
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    word-wrap: break-word;
+
+    color: #fff;
+    border-radius: 37px;
+    background-color: #ff6a6d;
+    -webkit-box-shadow: -13px 16px 23.52px .48px rgba(226, 88, 91, .29);
+            box-shadow: -13px 16px 23.52px .48px rgba(226, 88, 91, .29);
+}
+
+/* ---------------- */
+.container-footer
+{
+    width: 1423px;
+    margin: 0 auto;
+
+    border-radius: 176px 176px 0 0;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.container-link
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin: 0 auto;
+    padding: 116px 160px 110px 160px;
+
+    text-align: left;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.link-header
+{
+    font-family: 'FivoSans-Regular';
+    line-height: 40px;
+
+    padding: 0;
+
+    text-transform: uppercase;
+
+    color: #2e2e2e;
+}
+
+.link-contact
+{
+    font-family: 'FivoSans-Regular';
+    font-size: 16px;
+    line-height: 30px;
+
+    padding: 0;
+
+    color: #56686c;
+}
+
+.link-text
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.link-subtext
+{
+    font-family: 'FivoSans-Regular';
+    font-size: 16px;
+    line-height: 36px;
+
+    padding: 0;
+    padding-bottom: 7px;
+}
+
+.link-subtext a
+{
+    text-decoration: none;
+
+    color: #2e2e2e;
+}
+
+.text-copyright
+{
+    font-family: 'FivoSans-Regular';
+    line-height: 36px;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+}
