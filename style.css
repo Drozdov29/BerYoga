@@ -89,11 +89,10 @@ body {
 }
 
 .wrapper {
-    width: 1400px;
+    width: 1423px;
     margin: 0 auto;
     padding: 0;
 }
-
 
 .navigate {
     display: flex;
@@ -104,7 +103,7 @@ body {
 .navigate-header-logo {
 	margin: 0;
     padding: 0;
-    margin-right: 555px;
+    margin-right: 548px;
 	font-size: 32px;
 	line-height: 48px;
     font-family: 'FivoSans-Heavy';
@@ -368,7 +367,7 @@ body {
     width: 31px;
     height: 24px;
     left: -45px;
-    background-image: url("img/checkbox-red.png");
+    background-image: url("img/checkbox.png");
     background-repeat: no-repeat;
 }
 
@@ -522,4 +521,204 @@ body {
     padding-left: 110px;
 }
 
-/* --------------------------------------------------------- */
+/* ----------------------   5   БЛОК    ----------------------------------- */
+
+.container-price {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.price-cart-one,
+.price-cart-three {
+    width: 473px;
+    height: 689px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-top: 43px;
+    position: relative;
+}
+
+.price-cart-two {
+    z-index: 1;
+    width: 502px;
+    height: 771px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: -24px 28px 136px 0px rgba(226, 88, 91, 0.19);
+    position: relative;
+}
+
+.price-cart-one {
+box-shadow: -27px 32px 35px 0px rgba(255, 106, 109, 0.15); 
+}
+
+.price-cart-three {
+    box-shadow: 27px 32px 35px 0px rgba(255, 106, 109, 0.15); 
+}
+
+.price-cart-three h3 {
+    margin: 0;
+    padding: 0;
+    font-family: 'FivoSans-Bold';
+	font-size: 30px;
+	line-height: 29px;
+    color: #7a7a7a;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.price-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.price-list__subtitle {
+    margin: 0;
+	padding: 0;
+	text-decoration: none;
+	line-height: 29px;
+	font-family: 'FivoSans-Regular';
+	color: #3b3838;
+    text-transform: capitalize;
+    padding-left: 130px;
+    padding-bottom: 39px;
+    text-align: left;
+    position: relative;
+}
+
+.price-list__subtitle:last-of-type {
+    margin-bottom: 40px;
+}
+.subtitle-up {
+    margin-top: 80px;
+}
+
+.checkbox-blue:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/checkbox-blue.png);
+    background-repeat: no-repeat;
+    left: 65px;
+    top: -5px;
+}
+
+.price-list__text{
+    padding: 0;
+    margin: 0;
+    font-size: 150px;
+	line-height: 29px;
+	font-family: 'FivoSans-Regular';
+    color: #7e7c7c;
+    vertical-align: baseline;
+}
+
+.price-list__text sup {
+    font-size: 48px;
+	line-height: 29px;
+	font-family: 'FivoSans-Regular';
+    color: #7e7c7c;
+    vertical-align: text-top;
+}
+
+.price-list__text sub {
+    font-size: 30px;
+	line-height: 29px;
+	font-family: 'FivoSans-Regular';
+	color: #7e7c7c;
+    vertical-align: bottom;
+}
+
+.price-list__text-subtext {
+    margin: 0;
+    padding: 0;
+    font-family: 'FivoSans-Oblique';
+	line-height: 29px;
+    color: #888686;
+    margin-top: 37px;
+    margin-bottom: 55px;
+}
+
+.button-member-one {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+	background-color:rgba(95,206,245,1);
+    word-wrap: break-word;
+    border-radius: 37px;
+    text-decoration: none;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: "FivoSans-Medium";
+    background: linear-gradient(66deg, rgba(95,206,245,1) 0%, rgba(131,228,252,1) 100%);
+    box-shadow: -13px 16px 23.52px 0.48px rgba(95, 206, 244, 0.29);
+    padding: 23px 31px;
+}
+
+.button-member-three {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+	background-color:rgba(33,172,221,1);
+    word-wrap: break-word;
+    border-radius: 37px;
+    text-decoration: none;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: "FivoSans-Medium";
+    background: linear-gradient(66deg, rgba(33,172,221,1) 0%, rgba(157,218,233,1) 100%);
+    box-shadow: -13px 16px 23.52px 0.48px rgba(95, 206, 244, 0.29);
+    padding: 23px 31px;
+}
+
+.price-cart-two h3 {
+    margin: 0;
+    padding: 0;
+    font-family: 'FivoSans-Bold';
+	font-size: 30px;
+	line-height: 29px;
+    color: #fbfcfc;
+    background-color: #ff6a6d;
+    border-radius: 20px 20px 0 0;
+    padding: 40px 0 40px 0;
+    margin-bottom: 64px;
+}
+
+.checkbox-red::before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    background-image: url(img/checkbox-red.png);
+    background-repeat: no-repeat;
+    left: 65px;
+    top: -5px;
+}
+
+.button-member-two {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+	background-color:#ff6a6d;
+    word-wrap: break-word;
+    border-radius: 37px;
+    text-decoration: none;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: "FivoSans-Medium";
+    box-shadow: -13px 16px 23.52px 0.48px rgba(226, 88, 91, 0.29);    padding: 23px 31px;
+}
+
+.price-cart-one:hover,
+.price-cart-two:hover,
+.price-cart-three:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    border: 1px solid #ff585b;
+    transition: all 1s ease;
+}
