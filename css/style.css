@@ -100,14 +100,14 @@ body
     min-height: 1334px;
 
     background-color: #fff;
-    background-image: url(img/bg.png);
+    background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 .wrapper
 {
-    width: 1423px;
+    width: 1420px;
     margin: 0 auto;
     padding: 0;
 }
@@ -438,7 +438,7 @@ body
 
     content: '';
 
-    background-image: url(img/decorate-2.png);
+    background-image: url(../img/decorate-2.png);
     background-repeat: no-repeat;
 }
 .container-two::after
@@ -452,7 +452,7 @@ body
 
     content: '';
 
-    background-image: url(img/decorate-1.png);
+    background-image: url(../img/decorate-1.png);
     background-repeat: no-repeat;
 }
 
@@ -505,7 +505,7 @@ body
 
     content: '';
 
-    background-image: url('img/checkbox.png');
+    background-image: url(../img/checkbox.png);
     background-repeat: no-repeat;
 }
 
@@ -596,7 +596,7 @@ body
 
     content: '';
 
-    background-image: url('img/healing.png');
+    background-image: url(../img/healing.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -643,7 +643,7 @@ body
 
     content: '';
 
-    background-image: url(img/decorate-3.png);
+    background-image: url(../img/decorate-3.png);
     background-repeat: no-repeat;
 }
 
@@ -658,7 +658,7 @@ body
 
     content: '';
 
-    background-image: url(img/decorate-4.png);
+    background-image: url(../img/decorate-4.png);
     background-repeat: no-repeat;
 }
 
@@ -716,7 +716,7 @@ footer
 {
     width: 1920px;
 
-    background-image: url(img/footer-img.jpg);
+    background-image: url(../img/footer-img.jpg);
     background-repeat: no-repeat;
     background-position: center 0;
 }
@@ -841,7 +841,7 @@ footer
 
     content: '';
 
-    background-image: url(img/checkbox-blue.png);
+    background-image: url(../img/checkbox-blue.png);
     background-repeat: no-repeat;
 }
 
@@ -967,7 +967,7 @@ footer
 
     content: '';
 
-    background-image: url(img/checkbox-red.png);
+    background-image: url(../img/checkbox-red.png);
     background-repeat: no-repeat;
 }
 
