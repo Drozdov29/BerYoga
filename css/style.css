@@ -930,6 +930,20 @@ footer{
     color: #56686c;
 }
 
+.inner-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.inner-contact a {
+    text-decoration: none;
+    font-family: 'FivoSans-Regular';
+    font-size: 16px;
+    line-height: 36px;
+    color: #2e2e2e;
+}
+
 .link-text{
     margin: 0;
     padding: 0;
@@ -955,7 +969,6 @@ footer{
 .link-subtext a:hover{
     color: red;
 }
-
 
 .text-copyright{
     font-family: 'FivoSans-Regular';
