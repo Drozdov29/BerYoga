@@ -1,5 +1,4 @@
-@font-face
-{
+@font-face {
     font-family: 'FivoSans-Heavy';
     font-weight: bold;
     font-style: normal;
@@ -10,8 +9,7 @@
     url('font/FivoSans-Heavy/FivoSans-Heavy.svg') format('svg');
 }
 
-@font-face
-{
+@font-face {
     font-family: 'FivoSans-Medium';
     font-weight: normal;
     font-style: normal;
@@ -24,8 +22,7 @@
     url('font/FivoSans-Regular/FivoSans-Regular.svg') format('svg');
 }
 
-@font-face
-{
+@font-face {
     font-family: 'FivoSans-Regular';
     font-weight: normal;
     font-style: normal;
@@ -38,7 +35,7 @@
     url('font/FivoSans-Regular/FivoSans-Regular.svg') format('svg');
 }
 
-@font-face{
+@font-face {
     font-family: 'FivoSans-Oblique';
     font-weight: normal;
     font-style: normal;
@@ -51,7 +48,7 @@
     url('font/FivoSans-Oblique/FivoSans-Oblique.svg') format('svg');
 }
 
-@font-face{
+@font-face {
     font-family: 'FivoSans-Bold';
     font-weight: normal;
     font-style: normal;
@@ -64,7 +61,7 @@
     url('font/FivoSans-Bold/FivoSans-Bold.svg') format('svg');
 }
 
-@font-face{
+@font-face {
     font-family: 'FivoSans-Light';
     font-weight: normal;
     font-style: normal;
@@ -77,7 +74,7 @@
     url('font/FivoSans-Light/FivoSans-Light.svg') format('svg');
 }
 
-body{
+body {
     font-family: 'FivoSans-Regular';
     font-size: 18px;
     line-height: 20px;
@@ -560,10 +557,12 @@ body{
     display: flex;
 }
 
-.wrapper.four{
+.inner-four{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: 0 auto;
+
 }
 
 .container-four-block{
@@ -606,12 +605,13 @@ body{
 
 .container-four-block h2{
     font-family: 'FivoSans-Bold';
-    font-size: 45px;
+    font-size: 50px;
     line-height: 67px;
 
     margin: 0;
     margin-bottom: 100px;
     padding: 0;
+    padding-right: 50px;
 
     color: #3b3838;
 }
